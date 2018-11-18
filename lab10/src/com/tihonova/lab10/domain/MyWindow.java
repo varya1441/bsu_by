@@ -1,0 +1,96 @@
+package com.tihonova.lab10.domain;
+
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import java.awt.*;
+import java.awt.event.*;
+
+public class MyWindow extends JFrame {
+    private JButton jButton;
+    private JPanel lablePanel, dragPanel;
+    private JLabel jLabel;
+
+    public MyWindow() {
+        setTitle("Lab 10   :3");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(700, 500);
+        setLocationRelativeTo(null);
+        init();
+    }
+
+    public void init() {
+        try {
+            SwingUtilities.invokeAndWait(new Runnable() {
+                @Override
+                public void run() {
+                    makeGUI();
+                }
+            });
+        } catch (Exception ex) {
+            System.out.println("Can't create because of " + ex.getMessage());
+        }
+    }
+
+    private void makeGUI() {
+
+        lablePanel = new JPanel();
+        lablePanel.setBorder(new BevelBorder(BevelBorder.RAISED));
+        jLabel = new JLabel("hgh");
+        lablePanel.add(jLabel);
+        this.add(lablePanel, BorderLayout.SOUTH);
+
+
+        dragPanel = new JPanel(null);
+        this.add(dragPanel, BorderLayout.CENTER);
+        jButton = new JButton("Button");
+        dragPanel.add(jButton);
+        jButton.setBounds(0, 0, jButton.getPreferredSize().width, jButton.getPreferredSize().height);
+
+        dragPanel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                jButton.setLocation(e.getX() - jButton.getWidth() / 2, e.getY() - jButton.getHeight() / 2);
+            }
+        });
+        dragPanel.addMouseMotionListener(new MouseMotionAdapter() {
+            @Override
+            public void mouseMoved(MouseEvent e) {
+                jLabel.setText("x = " + e.getX() + "; y = " + e.getY());
+            }
+        });
+        jButton.addMouseMotionListener(new MouseMotionAdapter() {
+            private int x, y;
+
+            @Override
+            public void mouseMoved(MouseEvent e) {
+                x = e.getX();
+                y = e.getY();
+                jLabel.setText("x = " + e.getX() + "; y = " + e.getY());
+            }
+
+            @Override
+            public void mouseDragged(MouseEvent e) {
+                if (e.isControlDown()) {
+                    jButton.setLocation(jButton.getX() + e.getX() - x, jButton.getY() + e.getY() - y);
+                    jLabel.setText("x: " + (jButton.getX() + e.getX()) + ", y: " + (jButton.getY() + e.getY()));
+                }
+            }
+        });
+        jButton.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                if(e.getKeyChar()==KeyEvent.VK_BACK_SPACE){
+                    if(jButton.getText().length()>0){
+                        jButton.setText(jButton.getText().substring(0,jButton.getText().length()-1));
+                    }
+                }else {
+                    jButton.setText(jButton.getText() + e.getKeyChar());
+                }
+                jButton.setSize(jButton.getPreferredSize());
+            }
+        });
+
+    }
+}
+
+
