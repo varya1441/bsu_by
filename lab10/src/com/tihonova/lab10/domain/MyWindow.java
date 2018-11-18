@@ -7,8 +7,12 @@ import java.awt.event.*;
 
 public class MyWindow extends JFrame {
     private JButton jButton;
-    private JPanel lablePanel, dragPanel;
+    private JPanel labelPanel, dragPanel;
     private JLabel jLabel;
+    private MenuBar menuBar;
+    private Menu setMark;
+    private MenuItem mark, quit;
+    private JFrame app;
 
     public MyWindow() {
         setTitle("Lab 10   :3");
@@ -32,19 +36,43 @@ public class MyWindow extends JFrame {
     }
 
     private void makeGUI() {
+        app = this;
 
-        lablePanel = new JPanel();
-        lablePanel.setBorder(new BevelBorder(BevelBorder.RAISED));
+        menuBar = new MenuBar();
+        this.setMenuBar(menuBar);
+        setMark = new Menu("Mark");
+        setMark.add(mark = new MenuItem("Set Mark"));
+        setMark.add(quit = new MenuItem("Quit..."));
+        menuBar.add(setMark);
+        setMark.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (e.getActionCommand().equals(mark.getActionCommand())) {
+                    JOptionPane.showInputDialog("What is my mark?");
+                } else if (e.getActionCommand().equals(quit.getActionCommand())) {
+                    app.dispose();
+                }
+
+            }
+        });
+
+
+        labelPanel = new JPanel();
+        labelPanel.setBorder(new BevelBorder(BevelBorder.RAISED));
+        labelPanel.setBackground(Color.PINK);
         jLabel = new JLabel("hgh");
-        lablePanel.add(jLabel);
-        this.add(lablePanel, BorderLayout.SOUTH);
+        labelPanel.add(jLabel);
+        this.add(labelPanel, BorderLayout.SOUTH);
 
 
         dragPanel = new JPanel(null);
+        dragPanel.setBackground(Color.getHSBColor(0.5f, 0.33f, 1f));
         this.add(dragPanel, BorderLayout.CENTER);
+
         jButton = new JButton("Button");
         dragPanel.add(jButton);
         jButton.setBounds(0, 0, jButton.getPreferredSize().width, jButton.getPreferredSize().height);
+        jButton.setBackground(Color.ORANGE);
 
         dragPanel.addMouseListener(new MouseAdapter() {
             @Override
@@ -79,11 +107,11 @@ public class MyWindow extends JFrame {
         jButton.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
-                if(e.getKeyChar()==KeyEvent.VK_BACK_SPACE){
-                    if(jButton.getText().length()>0){
-                        jButton.setText(jButton.getText().substring(0,jButton.getText().length()-1));
+                if (e.getKeyChar() == KeyEvent.VK_BACK_SPACE) {
+                    if (jButton.getText().length() > 0) {
+                        jButton.setText(jButton.getText().substring(0, jButton.getText().length() - 1));
                     }
-                }else {
+                } else {
                     jButton.setText(jButton.getText() + e.getKeyChar());
                 }
                 jButton.setSize(jButton.getPreferredSize());
