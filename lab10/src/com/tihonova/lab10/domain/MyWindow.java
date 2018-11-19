@@ -42,7 +42,7 @@ public class MyWindow extends JFrame {
         this.setMenuBar(menuBar);
         setMark = new Menu("Mark");
         setMark.add(mark = new MenuItem("Set Mark"));
-        setMark.add(quit = new MenuItem("Quit..."));
+        setMark.add(quit = new MenuItem("Quit"));
         menuBar.add(setMark);
         setMark.addActionListener(new ActionListener() {
             @Override
@@ -85,6 +85,11 @@ public class MyWindow extends JFrame {
             public void mouseMoved(MouseEvent e) {
                 jLabel.setText("x = " + e.getX() + "; y = " + e.getY());
             }
+
+            @Override
+            public void mouseDragged(MouseEvent e) {
+                jLabel.setText("x = " + e.getX() + "; y = " + e.getY());
+            }
         });
         jButton.addMouseMotionListener(new MouseMotionAdapter() {
             private int x, y;
@@ -93,14 +98,14 @@ public class MyWindow extends JFrame {
             public void mouseMoved(MouseEvent e) {
                 x = e.getX();
                 y = e.getY();
-                jLabel.setText("x = " + e.getX() + "; y = " + e.getY());
+                jLabel.setText("x = " + (jButton.getX() + e.getX() )+ "; y = " + (jButton.getY() + e.getY()));
             }
 
             @Override
             public void mouseDragged(MouseEvent e) {
                 if (e.isControlDown()) {
                     jButton.setLocation(jButton.getX() + e.getX() - x, jButton.getY() + e.getY() - y);
-                    jLabel.setText("x: " + (jButton.getX() + e.getX()) + ", y: " + (jButton.getY() + e.getY()));
+                    jLabel.setText("x= " + (jButton.getX() + e.getX()) + "; y= " + (jButton.getY() + e.getY()));
                 }
             }
         });
