@@ -105,8 +105,9 @@ public class MyWindow extends JFrame {
             public void mouseDragged(MouseEvent e) {
                 if (e.isControlDown()) {
                     jButton.setLocation(jButton.getX() + e.getX() - x, jButton.getY() + e.getY() - y);
-                    jLabel.setText("x= " + (jButton.getX() + e.getX()) + "; y= " + (jButton.getY() + e.getY()));
+
                 }
+                jLabel.setText("x= " + (jButton.getX() + e.getX()) + "; y= " + (jButton.getY() + e.getY()));
             }
         });
         jButton.addKeyListener(new KeyAdapter() {
