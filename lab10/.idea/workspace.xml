@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336f141c-43ae-4ce4-8437-2b84f0add8cb" name="Default Changelist" comment="lab 10 added color and menubar">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/ts/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/ts/CanvasLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/ts/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/ts/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab_11/src/com/tihonova/lab11/window/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bsu_by" beforeDir="false" afterPath="$PROJECT_DIR$/../bsu_by" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/bsu-lab" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/bsu-lab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab9" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9" afterDir="false" />
     </list>
@@ -13,52 +22,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1396643410">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2338" />
-          <entry key="txt" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2338" />
-          <entry key="PLAIN_TEXT" value="42" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="ClassPatternConfiguration">
+    <testPatterns>
+      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+    </testPatterns>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab10/runner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="264">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -66,20 +41,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab10/domain/MyWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="-811">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
                 <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#2362#2589#0" expanded="true" />
-                <element signature="e#2588#2589#0" expanded="true" />
-                <element signature="e#2731#2732#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-                <element signature="e#2894#2895#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-                <element signature="e#3592#4129#0" expanded="true" />
-                <element signature="e#4128#4129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,11 +76,40 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="JUnitClassTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Class.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Class.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitMethodTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Method.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Method.java" />
+          <item index="1" class="java.lang.String" itemvalue="Test Method throws Exception.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitTestConfiguration">
+    <option name="IS_AUTO_TEST_CLASS_RENAME_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_MOVE_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_REFACTORING_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_METHODS_RENAME_ENABLED" value="true" />
+    <option name="IS_UNTESTED_METHOD_ICON_ENABLED" value="true" />
+    <option name="IS_GET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_SET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_UNIT_TEST_ENABLED" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
@@ -189,7 +185,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Runner">
-    <configuration name="MeApplet" type="Applet" factoryName="Applet" temporary="true" nameIsGenerated="true">
+    <configuration name="MeApplet" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tihonova.lab10.notwork.MeApplet" />
       <module name="lab10" />
       <method v="2">
@@ -223,8 +219,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Runner" />
       <item itemvalue="Applet.MeApplet" />
+      <item itemvalue="Application.Runner" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
@@ -250,7 +246,10 @@
       <workItem from="1542570882280" duration="657000" />
       <workItem from="1542571699188" duration="521000" />
       <workItem from="1542615134417" duration="1472000" />
-      <workItem from="1542618303474" duration="3665000" />
+      <workItem from="1542618303474" duration="3900000" />
+      <workItem from="1543058548993" duration="1194000" />
+      <workItem from="1543744644604" duration="14000" />
+      <workItem from="1543744769430" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Lab10">
       <created>1542529233024</created>
@@ -270,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35612000" />
+    <option name="totallyTimeSpent" value="37078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
@@ -284,16 +283,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13723284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4510686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.090705484" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32884398" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,6 +303,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25376344" />
@@ -338,9 +339,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab10" />
     <MESSAGE value="lab 10 added color and menubar" />
@@ -354,27 +352,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab10/runner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab10/domain/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="-811">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
             <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#2362#2589#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2731#2732#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3592#4129#0" expanded="true" />
-            <element signature="e#4128#4129#0" expanded="true" />
           </folding>
         </state>
       </provider>
