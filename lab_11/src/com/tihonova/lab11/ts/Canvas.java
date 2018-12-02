@@ -12,7 +12,7 @@ import java.util.List;
 public class Canvas extends JPanel {
     private CanvasLine currentLine;
     private List<CanvasLine> lines;
-    private final static int AREA_SIZE = 400;
+    private final static int AREA_SIZE = 800;
     private int maxX;
     private int maxY;
     private BufferedImage image =
@@ -48,7 +48,7 @@ public class Canvas extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-//        image.getBackgroundImage();
+        image=(BufferedImage)getBackgroundImage();
         if (image != null) {
             g.drawImage(image, 0, 0, null);
         }
@@ -57,7 +57,6 @@ public class Canvas extends JPanel {
                      line.paint(g);
             }
         }
-        this.setPreferredSize(new Dimension(this.maxX, this.maxY));
          this.revalidate();
     }
 
@@ -71,9 +70,9 @@ public class Canvas extends JPanel {
         return ((Paint) SwingUtilities.getRoot(this)).getCurrentColor();
     }
 
-//    private Image getBackgroundImage() {
-//        return ((Paint) SwingUtilities.getRoot(this)).getBackgroundImage();
-//    }
+    private Image getBackgroundImage() {
+        return ((Paint) SwingUtilities.getRoot(this)).getBackgroundImage();
+    }
 
     public void clear() {
         lines.clear();

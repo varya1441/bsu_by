@@ -3,7 +3,6 @@ package com.tihonova.lab11.ts;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.border.BevelBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,13 +23,13 @@ public class Paint extends JFrame {
     public Paint() {
         super("Lab 11: Paint");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(700, 700);
+        setSize(700, 500);
         setLocationRelativeTo(null);
         init();
     }
 
-    public void init() {
-        try {
+        public void init() {
+            try {
             SwingUtilities.invokeAndWait(new Runnable() {
                 @Override
                 public void run() {
@@ -47,7 +46,10 @@ public class Paint extends JFrame {
 
 
         canvas = new Canvas();
+        canvas.setSize(800,800);
         scrollPane = new JScrollPane(canvas);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         toolPanel = new JPanel();
         toolPanel = new JPanel();
         toolPanel.setBackground(new Color(0xC1B8B0));
@@ -98,7 +100,7 @@ public class Paint extends JFrame {
                 if (fileChooser.showSaveDialog(app) == JFileChooser.APPROVE_OPTION) {
                     File outputFile = fileChooser.getSelectedFile();
                     try {
-                        BufferedImage im = new BufferedImage(getWidth(), getHeight(), BufferedImage.TYPE_INT_ARGB);
+                        BufferedImage im = new BufferedImage(canvas.getWidth(), canvas.getHeight(), BufferedImage.TYPE_INT_ARGB);
                         canvas.paint(im.getGraphics());
                         ImageIO.write(im, "PNG", outputFile);
                     } catch (IOException e1) {
