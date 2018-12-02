@@ -19,6 +19,7 @@ public class Paint extends JFrame {
     private JButton openButton, saveButton, chooseColor;
     private Color currentColor;
     private Image image;
+    private JScrollPane scrollPane;
 
     public Paint() {
         super("Lab 11: Paint");
@@ -46,7 +47,7 @@ public class Paint extends JFrame {
 
 
         canvas = new Canvas();
-        JScrollPane scrollPane = new JScrollPane(canvas);
+        scrollPane = new JScrollPane(canvas);
         toolPanel = new JPanel();
         toolPanel = new JPanel();
         toolPanel.setBackground(new Color(0xC1B8B0));

@@ -19,6 +19,7 @@ public class CanvasLine {
     }
 
     public void add(int x, int y) {
+
         this.coordinatesList.add(new Coordinates(x, y));
     }
 
