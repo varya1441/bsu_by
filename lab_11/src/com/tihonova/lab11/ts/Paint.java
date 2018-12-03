@@ -12,48 +12,36 @@ import java.io.IOException;
 
 public class Paint extends JFrame {
 
+
     private static Paint app;
-    private Canvas canvas;
-    private JPanel toolPanel,buttonPanel ;
+    private PaintPanel canvas;
+    private JPanel toolPanel, buttonPanel;
     private JButton openButton, saveButton, chooseColor;
     private Color currentColor;
-    private Image image;
+    private BufferedImage image;
+
     private JScrollPane scrollPane;
 
     public Paint() {
         super("Lab 11: Paint");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(700, 500);
+        setSize(500, 500);
         setLocationRelativeTo(null);
-        init();
+        makePaint();
     }
-
-        public void init() {
-            try {
-            SwingUtilities.invokeAndWait(new Runnable() {
-                @Override
-                public void run() {
-                    makePaint();
-                }
-            });
-        } catch (Exception ex) {
-            System.out.println("Can't create because of " + ex.getMessage());
-        }
-    }
-
 
     public void makePaint() {
 
 
-        canvas = new Canvas();
-        canvas.setSize(800,800);
+        canvas = new PaintPanel();
+
         scrollPane = new JScrollPane(canvas);
-        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+
+        canvas.setPreferredSize(canvas.getSize());
+
         toolPanel = new JPanel();
         toolPanel = new JPanel();
         toolPanel.setBackground(new Color(0xC1B8B0));
-       // toolPanel.setBorder(new BevelBorder(BevelBorder.LOWERED));
 
         buttonPanel = new JPanel(new GridLayout(1, 3));
 
@@ -66,7 +54,8 @@ public class Paint extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Color chosenColor = JColorChooser.showDialog(app, "Choose color", currentColor);
                 if (chosenColor != null)
-                    currentColor = chosenColor;
+                    canvas.setColor(chosenColor);
+                currentColor = chosenColor;
             }
         });
 
@@ -80,8 +69,11 @@ public class Paint extends JFrame {
                 if (fileChooser.showOpenDialog(app) == JFileChooser.APPROVE_OPTION) {
                     File inputFile = fileChooser.getSelectedFile();
                     try {
+
                         image = ImageIO.read(inputFile);
+                        canvas.setBufferedImage(image);
                         canvas.clear();
+
                     } catch (IOException e1) {
                         JOptionPane.showMessageDialog(app, "File cannot be opened");
                     }
@@ -100,9 +92,7 @@ public class Paint extends JFrame {
                 if (fileChooser.showSaveDialog(app) == JFileChooser.APPROVE_OPTION) {
                     File outputFile = fileChooser.getSelectedFile();
                     try {
-                        BufferedImage im = new BufferedImage(canvas.getWidth(), canvas.getHeight(), BufferedImage.TYPE_INT_ARGB);
-                        canvas.paint(im.getGraphics());
-                        ImageIO.write(im, "PNG", outputFile);
+                        ImageIO.write(canvas.getBufferedImage(), "PNG", outputFile);
                     } catch (IOException e1) {
                         JOptionPane.showMessageDialog(app, "File cannot be saved to this location");
                     }
@@ -114,7 +104,7 @@ public class Paint extends JFrame {
         buttonPanel.add(openButton);
         buttonPanel.add(saveButton);
 
-        this.add(toolPanel,BorderLayout.NORTH);
+        this.add(toolPanel, BorderLayout.NORTH);
         this.add(scrollPane, BorderLayout.CENTER);
 
     }
