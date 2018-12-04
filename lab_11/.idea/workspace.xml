@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b2b17a-c32d-4e2b-921e-b23dfc8cb59e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tihonova_Varvara/src/test/tihonova/sem3/exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tihonova/lab11/ts/PaintPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tihonova_Varvara/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tihonova_Varvara/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tihonova_Varvara/src/test/tihonova/sem3/container/MyContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tihonova_Varvara/src/test/tihonova/sem3/container/MyContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tihonova_Varvara/src/test/tihonova/sem3/exception/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tihonova_Varvara/src/test/tihonova/sem3/exception/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bsu_by" beforeDir="false" afterPath="$PROJECT_DIR$/../bsu_by" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/bsu-lab" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/bsu-lab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab9" beforeDir="false" afterPath="$PROJECT_DIR$/../lab9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab11/com/tihonova/lab11/ts/Paint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
+            <state relative-caret-position="144">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab11/ts/PaintPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="24">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
@@ -103,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Coordinates.java" />
         <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/CanvasLine.java" />
         <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Canvas.java" />
-        <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/PaintPanel.java" />
         <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java" />
+        <option value="$PROJECT_DIR$/src/com/tihonova/lab11/ts/PaintPanel.java" />
       </list>
     </option>
   </component>
@@ -198,8 +188,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543858608663" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543858781194" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tihonova_Varvara" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -267,12 +257,12 @@
       <workItem from="1543253624641" duration="262000" />
       <workItem from="1543640981892" duration="2090000" />
       <workItem from="1543745295577" duration="13124000" />
-      <workItem from="1543833354356" duration="9422000" />
+      <workItem from="1543833354356" duration="10124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39574000" />
+    <option name="totallyTimeSpent" value="40276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
@@ -286,7 +276,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.048152294" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946237" visible="true" weight="0.21164614" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946237" weight="0.21164614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.07838746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15901455" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15901455" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053763" side_tool="true" weight="0.07614782" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -399,10 +389,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab11/ts/PaintPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="24">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#519#520#0" expanded="true" />
@@ -421,16 +421,6 @@
             <element signature="e#1634#1635#0" expanded="true" />
             <element signature="e#2353#2354#0" expanded="true" />
             <element signature="e#2378#2379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tihonova/lab11/ts/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

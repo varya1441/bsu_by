@@ -27,4 +27,5 @@ public class PassengerCar extends Car {
     public String toString() {
         return "name: "+this.getName()+" color: "+this.getColor() +" fuel: "+ this.getFuel()+"material:"+this.material+"\n";
     }
+
 }
