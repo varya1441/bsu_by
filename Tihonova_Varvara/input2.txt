@@ -1,0 +1,7 @@
+Audi red DIESEL 23 2
+Ford green PETROL 21 4
+Mers Orange PETROL 13 2
+Ferrari Yellow DIESEL 44 3
+Cherry Blue PETROL 32 3
+Cherry Orange DIESEL 22 1
+Ferrari Yellow PETROL 34 2

@@ -6,12 +6,18 @@ import java.awt.*;
 import java.util.Comparator;
 import java.util.Objects;
 
-public abstract class Car implements Comparable<Car>,Cloneable {
+public abstract class Car implements Comparable<Car>{
     private String name;
-    private Color color;
+    private String color;
     private Fuel fuel;
 
-    public Car(String name, Color color, Fuel fuel) {
+    public Car() {
+        name="noname";
+        color="white";
+        fuel=Fuel.PETROL;
+    }
+
+    public Car(String name, String color, Fuel fuel) {
         this.name = name;
         this.color = color;
         this.fuel = fuel;
@@ -25,11 +31,11 @@ public abstract class Car implements Comparable<Car>,Cloneable {
         this.name = name;
     }
 
-    public Color getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(Color color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
@@ -61,10 +67,11 @@ public abstract class Car implements Comparable<Car>,Cloneable {
 
     @Override
     public int compareTo(Car o) {
-        int cmp=this.name.compareToIgnoreCase(o.name);
+        int cmp=name.compareTo(o.name);
+
         if(cmp==0){
-            return  this.getFuel().name().compareToIgnoreCase(o.getFuel().name());
-        }else
+            return  o.getFuel().name().compareTo(fuel.name());
+        }
             return cmp;
     }
 
@@ -72,5 +79,5 @@ public abstract class Car implements Comparable<Car>,Cloneable {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
-//
+
 }

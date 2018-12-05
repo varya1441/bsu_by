@@ -1,32 +1,36 @@
 package test.tihonova.sem3.container;
 
+import test.tihonova.sem3.domain.Car;
+import test.tihonova.sem3.exception.CollectionIsEmpty;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
-public class MyContainer<T extends Comparable<T>> extends ArrayList<T> {
-    public String toString() {
+public class MyContainer<T extends Car> extends ArrayList<T> {
+    public void print() {
         StringBuffer stringBuffer = new StringBuffer();
         for (T temp : this) {
-            stringBuffer.append(this.toString());
+            stringBuffer.append(temp.toString());
         }
-        return stringBuffer.toString();
+        System.out.println(stringBuffer.toString());
     }
 
     public int find(T elem) {
         return Collections.frequency(this, elem);
     }
 
-    public T search(T elem) {
-        ArrayList<T> searchArray = (ArrayList<T>) this.clone();
-        Collections.sort(searchArray);
-        int index=Collections.binarySearch(searchArray,elem);
-        return this.get(index);
+    public T search(T elem) throws CollectionIsEmpty {
+        if (this.isEmpty())
+            throw new CollectionIsEmpty();
+        MyContainer<T> container = (MyContainer<T>) this.clone();
+        Collections.sort(container);
+        int index = Collections.binarySearch(container, elem);
+        return container.get(index);
     }
-    public T findMin(){
-        return  Collections.min(this);
-    }
-    public T findMax(){
+
+    public T findMax() throws CollectionIsEmpty {
+        if (this.isEmpty() || this == null)
+            throw new CollectionIsEmpty();
         return Collections.max(this);
     }
 
