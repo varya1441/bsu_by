@@ -9,28 +9,29 @@ public class FirstPanel {
     public static JPanel getJPanel() {
 
         JPanel panel = new JPanel();
-        JPanel westList = new JPanel();
-        JPanel eastList = new JPanel();
+
         JPanel buttonPanel = new JPanel();
         panel.setLayout(new BorderLayout());
 
         DefaultListModel<String> modelWest = new DefaultListModel<>();
         JList listWest = new JList(modelWest);
-        westList.add(listWest);
         listWest.setSelectionBackground(Color.PINK);
 
         DefaultListModel<String> modelEast = new DefaultListModel<>();
         JList listEast = new JList(modelEast);
-        listEast.setLayout(new BorderLayout());
-        eastList.add(listEast);
-        eastList.setSize(listEast.getSize());
+        listEast.setFont(new Font( "Garamond", Font.PLAIN, 24));
+        listWest.setFont(new Font( "Garamond",  Font.PLAIN , 24));
+
+
         listEast.setSelectionBackground(Color.YELLOW);
 
 
         buttonPanel.setLayout(new BorderLayout());
 
-        panel.add(westList, BorderLayout.WEST);
-        panel.add(eastList, BorderLayout.EAST);
+        panel.add(new JScrollPane(listEast, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED), BorderLayout.EAST);
+
+        panel.add(new JScrollPane(listWest, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED), BorderLayout.WEST);
+
         panel.add(buttonPanel, BorderLayout.CENTER);
 
         JButton buttonWest = new JButton("<");
@@ -40,7 +41,8 @@ public class FirstPanel {
         buttonPanel.add(buttonWest, BorderLayout.SOUTH);
 
         for (int i = 0; i < 15; i++)
-            modelWest.addElement("Element " + i);
+            modelWest.addElement("Element "+i);
+
         for (int i = 15; i < 30; i++)
             modelEast.addElement("Element " + i);
 
