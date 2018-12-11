@@ -10,14 +10,14 @@ public class SecondPanel {
 
 
     public static JPanel getPanel() {
-        JButton button;
-        JPanel panel = new JPanel(new GridLayout((int) Math.sqrt(BOTTOM), (int) Math.sqrt(BOTTOM)));
 
+        JPanel panel = new JPanel(new GridLayout((int) Math.sqrt(BOTTOM), (int) Math.sqrt(BOTTOM)));
+MyMouseListener myMouseListener=new MyMouseListener();
         for (int i = 0; i < BOTTOM; i++) {
 
-            button = new JButton(Integer.toString(1 + i));
+            JButton button = new JButton(Integer.toString(1 + i));
 
-            button.addMouseListener(new MyMouseListener());
+            button.addMouseListener(myMouseListener);
             panel.add(button);
         }
 
@@ -43,7 +43,7 @@ class MyMouseListener extends MouseAdapter {
 
     @Override
     public void mousePressed(MouseEvent e) {
-
+//if(e.getButton()=)
         text = ((JButton) e.getSource()).getText();
         ((JButton) e.getSource()).setText("Clicked!");
     }
