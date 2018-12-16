@@ -31,7 +31,7 @@ public class InputDialog extends JDialog implements ActionListener {
         enter = new JButton("Enter");
 
 
-        // this.add(enter,BorderLayout.SOUTH);
+
         labelName = new JLabel("Name");
         name = new JTextField("", 15);
         panel.add(labelName);
@@ -62,7 +62,7 @@ public class InputDialog extends JDialog implements ActionListener {
                 toy.setName(name.getText());
                 toy.setCost(Double.parseDouble(cost.getText()));
                 toy.setChildrenGroup(ChildrenGroup.valueOf(group.getText().toUpperCase()));
-//                dialog.setVisible(false);
+                dialog.setVisible(false);
             } catch (NumberFormatException err) {
                 JOptionPane.showMessageDialog(this, err, "Error!", JOptionPane.PLAIN_MESSAGE);
             } catch (DataFormatException|IllegalArgumentException err) {

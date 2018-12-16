@@ -2,43 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3ec5c4a-1b00-4c6c-ae0d-573955eea474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toys.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/creation/ToyCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/childrengroup/ChildrenGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/childrengroup/ChildrenGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/InputDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/application/InputDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toy/Toy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toy/Toy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toys/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toys/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toys/Doll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/domain/toys/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/exception/CollectionIsEmpty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/exception/CollectionIsEmpty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/exception/MyException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/factory/ToyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/factory/market/BallMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/factory/market/CarMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/factory/market/DollMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/factory/market/RobotMaker.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/reader/ReadFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/reader/ReadFromFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab13/by/tihonova/javatr/runner/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/creation/ToyCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/PlayRoom.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toys/Ball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toys/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toys/Doll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toys/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/factory/ToyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/factory/market/BallMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/factory/market/CarMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/factory/market/DollMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/factory/market/RobotMaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/tihonova/javatr/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/tihonova/javatr/runner/Runner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,67 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/exception/CollectionIsEmpty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/exception/MyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/PlayRoom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -118,44 +39,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java">
+        <entry file="file://$PROJECT_DIR$/inputXML.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/runner/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" selection-start-line="12" selection-end-line="28" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -165,6 +59,62 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toys.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/constants/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="34" column="112" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,9 +166,11 @@
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/by/tihonova/javatr/runner/Runner.java" />
         <option value="$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java" />
-        <option value="$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java" />
-        <option value="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java" />
+        <option value="$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java" />
         <option value="$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java" />
+        <option value="$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java" />
+        <option value="$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java" />
+        <option value="$PROJECT_DIR$/inputXML.xml" />
       </list>
     </option>
   </component>
@@ -257,20 +209,6 @@
               <item name="lab13" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javatr" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javatr" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javatr" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,27 +227,6 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="toy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lab13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javatr" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javatr" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javatr" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -321,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544946170541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544961361156" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,33 +298,32 @@
       <updated>1544338785454</updated>
       <workItem from="1544338896022" duration="17342000" />
       <workItem from="1544436089213" duration="5501000" />
-      <workItem from="1544818436688" duration="13586000" />
+      <workItem from="1544818436688" duration="23424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36429000" />
+    <option name="totallyTimeSpent" value="46267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.2582996" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2582996" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.55950266" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -432,12 +348,12 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.55950266" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.024866786" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
@@ -467,16 +383,16 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java</url>
+          <line>60</line>
           <properties />
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java</url>
-          <line>96</line>
+          <url>file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java</url>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -519,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -595,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/childrengroup/ChildrenGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/exception/CollectionIsEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -620,33 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/PlayRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/runner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -654,20 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/toy/Toy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="535">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="e#445#446#0" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
@@ -685,13 +550,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/SAXReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        <state relative-caret-position="365">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/reader/ReadFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="34" column="112" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/InputDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toys.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputXML.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/childrengroup/ChildrenGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/domain/PlayRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/tihonova/javatr/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -51,7 +51,15 @@ public class Toy implements Comparable<Toy> {
         }
         return this.childrenGroup.name().compareTo(o.childrenGroup.name());
     }
-
+    public String toXML() {
+        StringBuilder xml = new StringBuilder();
+        xml.append("\t<toy>\n");
+        xml.append("\t\t<name>").append(name).append("</name>\n");
+        xml.append("\t\t<cost>").append(cost).append("</cost>\n");
+        xml.append("\t\t<group>").append(childrenGroup).append("</group>\n");
+        xml.append("\t</toy>");
+        return xml.toString();
+    }
     public String toString() {
         return  "name='" + name + '\'' +
                 ", group='" + childrenGroup + '\'' +
