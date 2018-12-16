@@ -84,7 +84,6 @@ public class Application extends JFrame {
                     if (fileChooser.showOpenDialog(app) == JFileChooser.APPROVE_OPTION) {
                         File inputFile = fileChooser.getSelectedFile();
                         try {
-                            listModel.clear();
                             toys = ReadFromFile.readXML(inputFile);
                             show(listModel, toys);
 
@@ -120,11 +119,12 @@ public class Application extends JFrame {
                 else if(e.getActionCommand().equals(save.getActionCommand())){
                     JFileChooser fileChooser = new JFileChooser("C:\\Users\\varvara\\Documents\\GitHub\\bsu_by\\lab13");
                     fileChooser.setSelectedFile(new File("toys.xml"));
-                    if (fileChooser.showOpenDialog(app) == JFileChooser.APPROVE_OPTION) {
+                    if (fileChooser.showSaveDialog(app) == JFileChooser.APPROVE_OPTION) {
                         File outputFile = fileChooser.getSelectedFile();
                         try{
                             PrintWriter out=new PrintWriter(outputFile);
                             out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<toys>");
+                            if(toys!=null)
                             for(Toy toy:toys){
                                 out.println(toy.toXML());
                             }
@@ -137,10 +137,7 @@ public class Application extends JFrame {
                 }
             }
         });
-
-
     }
-
     private void show(DefaultListModel list, Set<Toy> toys1) {
         if (toys != null) {
             list.clear();
