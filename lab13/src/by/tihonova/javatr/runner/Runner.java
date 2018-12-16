@@ -2,15 +2,7 @@ package by.tihonova.javatr.runner;
 
 import by.tihonova.javatr.application.Application;
 //import by.tihonova.javatr.domain.PlayRoom;
-import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
-import by.tihonova.javatr.domain.toy.Toy;
-import by.tihonova.javatr.domain.toys.Ball;
-import by.tihonova.javatr.reader.ReadFromFile;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.InputMismatchException;
 
 public class Runner {
    // final static String FILE_1 = "input.txt";

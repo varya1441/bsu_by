@@ -1,9 +1,9 @@
-Ball red 12.4 newborn red
-Robot Don 12.4 preschool cleaner
-Doll Ally 4 schoolkid D&G
-Car Lilly 10 newborn Ford
-Ball Simple 12.4 newborn red
-Robot Den 2.2 preschool Reader
-Doll Sarah 24 schoolkid H&M
-Car Ann 6 preschool Honda
-Ball red 22.4 schoolkid pink
+Ball 12,4 newborn
+Robot 12,4 preschool
+Doll 4 schoolkid
+Car 10 newborn
+Ball 12,4 newborn
+Robot 2,2 preschool
+Doll 24 schoolkid
+Car 6 preschool
+Ball 22,4 schoolkid

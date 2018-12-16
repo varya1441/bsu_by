@@ -1,9 +1,7 @@
 package by.tihonova.javatr.reader;
 
-import by.tihonova.javatr.creation.ToyCreation;
 import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
 import by.tihonova.javatr.domain.toy.Toy;
-import by.tihonova.javatr.factory.ToyFactory;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -20,10 +18,9 @@ public class ReadFromFile {
         Set<Toy> myContainer = new TreeSet<>();
         scanner = new Scanner(new BufferedReader(fileReader));
         while (scanner.hasNext()) {
-            String type = scanner.next();
-            ToyFactory factory = ToyCreation.getToyMarket(type);
-            myContainer.add(factory.createToy(scanner.next(), scanner.nextDouble(),
-                    ChildrenGroup.valueOf(scanner.next().toUpperCase()), scanner.next()));
+
+            myContainer.add(new Toy(scanner.next(), scanner.nextDouble(),
+                    ChildrenGroup.valueOf(scanner.next().toUpperCase())));
         }
 
         return myContainer;

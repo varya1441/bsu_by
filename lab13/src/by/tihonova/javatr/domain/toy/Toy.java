@@ -2,11 +2,17 @@ package by.tihonova.javatr.domain.toy;
 
 import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
 
-public abstract class Toy implements Comparable<Toy> {
+public class Toy implements Comparable<Toy> {
 
     private String name;
     private double cost;
     private ChildrenGroup childrenGroup;
+
+    public Toy() {
+        name="null";
+        cost=0.0;
+        childrenGroup=ChildrenGroup.NEWBORN;
+    }
 
     public Toy(String name, Double cost, ChildrenGroup childrenGroup) {
         this.name = name;
