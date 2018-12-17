@@ -2,6 +2,11 @@ package by.tihonova.javatr.domain.toy;
 
 import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.Set;
+
 public class Toy implements Comparable<Toy> {
 
     private String name;
@@ -51,6 +56,7 @@ public class Toy implements Comparable<Toy> {
         }
         return this.childrenGroup.name().compareTo(o.childrenGroup.name());
     }
+
     public String toXML() {
         StringBuilder xml = new StringBuilder();
         xml.append("\t<toy>\n");

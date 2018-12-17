@@ -1,3 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <toys>
+	<toy>
+		<name>Car</name>
+		<cost>10.0</cost>
+		<group>NEWBORN</group>
+	</toy>
+	<toy>
+		<name>Ball</name>
+		<cost>12.4</cost>
+		<group>NEWBORN</group>
+	</toy>
+	<toy>
+		<name>Robot</name>
+		<cost>2.2</cost>
+		<group>PRESCHOOL</group>
+	</toy>
+	<toy>
+		<name>Car</name>
+		<cost>6.0</cost>
+		<group>PRESCHOOL</group>
+	</toy>
+	<toy>
+		<name>Robot</name>
+		<cost>12.4</cost>
+		<group>PRESCHOOL</group>
+	</toy>
+	<toy>
+		<name>Doll</name>
+		<cost>4.0</cost>
+		<group>SCHOOLKID</group>
+	</toy>
+	<toy>
+		<name>Ball</name>
+		<cost>22.4</cost>
+		<group>SCHOOLKID</group>
+	</toy>
+	<toy>
+		<name>Doll</name>
+		<cost>24.0</cost>
+		<group>SCHOOLKID</group>
+	</toy>
 </toys>

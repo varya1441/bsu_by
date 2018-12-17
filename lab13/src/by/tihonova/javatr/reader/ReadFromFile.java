@@ -35,7 +35,7 @@ public class ReadFromFile {
     public static Set<Toy>readXML(File fileReader)throws IOException, ParserConfigurationException, SAXException{
         Set<Toy> myContainer = new TreeSet<>();
         DefaultHandler handler = new SAXReader();
-        SAXParserFactory factory = SAXParserFactory.newInstance();
+        SAXParserFactory factory = SAXParserFactory.newInstance();//разборщик
         SAXParser parser = factory.newSAXParser();
         parser.parse(fileReader,handler);
         myContainer=((SAXReader) handler).getToys();

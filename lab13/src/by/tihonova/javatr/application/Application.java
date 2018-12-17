@@ -1,6 +1,7 @@
 package by.tihonova.javatr.application;
 
 
+import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
 import by.tihonova.javatr.domain.toy.Toy;
 import by.tihonova.javatr.reader.ReadFromFile;
 import org.xml.sax.SAXException;
@@ -24,9 +25,10 @@ public class Application extends JFrame {
     private Toy toy;
     private MenuBar menuBar;
     private Menu menu, menuAdd;
-    private MenuItem file, quit, edit, fileXML, save;
+    private MenuItem file, quit, edit, fileXML, save,showItems;
     private JList jList;
     private JDialog dialog;
+    private JButton button;
 
     public Application() {
         setSize(500, 500);
@@ -38,16 +40,22 @@ public class Application extends JFrame {
 
         panel.setLayout(new BorderLayout());
         menuBar = new MenuBar();
+        button= new JButton("choose group");
         this.setMenuBar(menuBar);
 
-        menuAdd = new Menu("File");
+
+        menuAdd = new Menu("Refactoring");
         menuAdd.add(edit = new MenuItem("Add..."));
-        menuAdd.add(save = new MenuItem("Save as..."));
+        menuAdd.add(showItems=new MenuItem("Show group..."));
+        menuAdd.add(quit = new MenuItem("Quit"));
+
 
         menu = new Menu("File");
+
         menu.add(file = new MenuItem("Open..."));
         menu.add(fileXML = new MenuItem("OpenXML..."));
-        menu.add(quit = new MenuItem("Quit"));
+        menu.add(save = new MenuItem("Save as..."));
+
 
 
         menuBar.add(menu);
@@ -95,8 +103,17 @@ public class Application extends JFrame {
                             JOptionPane.showMessageDialog(app, "File cannot be opened");
                         }
                     }
-                } else if (e.getActionCommand().equals(quit.getActionCommand())) {
-                    app.dispose();
+                }  else if(e.getActionCommand().equals(save.getActionCommand())){
+                    JFileChooser fileChooser = new JFileChooser("C:\\Users\\varvara\\Documents\\GitHub\\bsu_by\\lab13");
+                    fileChooser.setSelectedFile(new File("toys.xml"));
+                    if (fileChooser.showSaveDialog(app) == JFileChooser.APPROVE_OPTION) {
+                        File outputFile = fileChooser.getSelectedFile();
+                        try{
+                            toXMLToString(outputFile, toys);
+                        }catch (IOException ex){
+                            JOptionPane.showMessageDialog(null, "File cannot be saved to this location");
+                        }
+                    }
                 }
             }
 
@@ -115,28 +132,38 @@ public class Application extends JFrame {
                         show(listModel, toys);
 
                     }
-                }
-                else if(e.getActionCommand().equals(save.getActionCommand())){
-                    JFileChooser fileChooser = new JFileChooser("C:\\Users\\varvara\\Documents\\GitHub\\bsu_by\\lab13");
-                    fileChooser.setSelectedFile(new File("toys.xml"));
-                    if (fileChooser.showSaveDialog(app) == JFileChooser.APPROVE_OPTION) {
-                        File outputFile = fileChooser.getSelectedFile();
-                        try{
-                            PrintWriter out=new PrintWriter(outputFile);
-                            out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<toys>");
-                            if(toys!=null)
-                            for(Toy toy:toys){
-                                out.println(toy.toXML());
+                }else if(e.getActionCommand().equals(showItems.getActionCommand())){
+                    if(toys!=null) {
+                        Set<Toy> items = new TreeSet<>();
+                        if (toys != null) {
+                            dialog = new Group(app);
+                            dialog.setVisible(true);
+                            for (Toy toy : toys) {
+                                if (toy.getChildrenGroup().equals((Group.getChildrenGroup()))) {
+                                    items.add(toy);
+                                }
                             }
-                            out.println("</toys>");
-                            out.close();
-                        }catch (IOException ex){
-                            JOptionPane.showMessageDialog(null, "File cannot be saved to this location");
                         }
+                        if (!items.isEmpty()) {
+                            show(listModel, items);
+                        }
+                    }
+                }else if (e.getActionCommand().equals(quit.getActionCommand())) {
+                    app.dispose();
                 }
-                }
+
             }
         });
+    }
+    public void toXMLToString(File outputFile, Set<Toy> toys) throws FileNotFoundException {
+        PrintWriter out=new PrintWriter(outputFile);
+        out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<toys>");
+        if(toys!=null)
+            for(Toy toy:toys){
+                out.println(toy.toXML());
+            }
+        out.println("</toys>");
+        out.close();
     }
     private void show(DefaultListModel list, Set<Toy> toys1) {
         if (toys != null) {
