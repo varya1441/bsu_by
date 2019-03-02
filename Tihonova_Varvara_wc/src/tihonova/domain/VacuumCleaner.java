@@ -30,7 +30,7 @@ public class VacuumCleaner implements Comparable<VacuumCleaner> {
         this.firmName = firmName;
     }
 
-    public double getPower() {
+    public int getPower() {
         return power;
     }
 
@@ -56,15 +56,14 @@ public class VacuumCleaner implements Comparable<VacuumCleaner> {
 
     @Override
     public int compareTo(VacuumCleaner o) {
-//        int cmpCost=Double.compare(o.getColor(),this.color);
-//        int cmpCaffeineAmount=Double.compare(this.power,o.getPower());
-//        if (cmpCost!=0)
-//            return cmpCost;
-//        else if (cmpCaffeineAmount!=0)
-//            return cmpCaffeineAmount;
-//        else
-//            return this.firmName.compareTo(o.getFirmName());
-        return 0;
+        int cmpFirmName=o.getFirmName().compareTo(this.firmName);
+        int cmpPower=Integer.compare(o.getPower(),this.power);
+        if(cmpFirmName!=0){
+        return cmpFirmName;
+        }else if(cmpPower!=0){
+            return cmpPower;
+        }
+        return this.getColor().compareTo(o.getColor());
     }
 
     @Override

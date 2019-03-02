@@ -1,6 +1,6 @@
-package com.tihonova.runner;
+package tihonova.runner;
 
-import com.tihonova.application.Application;
+import tihonova.application.Application;
 
 public class Runner {
     public static void main(String[] args) {

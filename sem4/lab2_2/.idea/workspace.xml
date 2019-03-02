@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/dialog/StudentDialog.java" line="74" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88088ee4-3daa-40ac-9efa-31c80050ab47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/Tihonova_Varvara_wc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/table/table.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/task3/task3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elephant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/dialog/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/CountriesTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/lab2_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/dialog/StudentDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/MyJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/StudentsPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ladybug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/CountriesTour$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/CountriesTour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/Dialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/META-INF/lab2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_2/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_2/Countries$CellRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_2/Countries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_2/META-INF/lab2_2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_2/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/META-INF/lab2_3.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/MyJFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/StudentDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/StudentsPanel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/StudentsPanel$MyRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lab2_3/main/StudentsPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_afghanistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_albania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_algeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_american_samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_andorra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_angola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_anguilla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_antigua_and_barbuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_argentina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_armenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_aruba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_australia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_austria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_azerbaijan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bahamas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bahrain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bangladesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_barbados.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_belarus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_belgium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_belize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_benin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bermuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bhutan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bolivia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bosnia_and_herzegovina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_botswana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_brazil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_british_indian_ocean_territory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_british_virgin_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_brunei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_bulgaria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_burkina_faso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_burma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_burundi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cambodia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cameroon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_canada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cape_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cayman_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_central_african_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_chad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_chile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_china.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_colombia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_comoros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_congo_democratic_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_congo_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cook_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_costa_rica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cote_divoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_croatia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cuba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_czech_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_denmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_djibouti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_dominica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_dominican_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_east_timor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_egypt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_el_salvador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_equador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_equatorial_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_eritrea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_estonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_ethiopia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_falkland_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_faroe_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_fiji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_finland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_france.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_french_polynesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_gabon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_gambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_georgia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_germany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_ghana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_gibraltar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_great_britain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_greece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_greenland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_grenada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guatemala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guernsey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guinea_bissau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_guyana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_haiti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_honduras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_hong_kong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_hungary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_iceland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_india.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_indonesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_iran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_iraq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_ireland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_isle_of_man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_israel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_italy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_jamaica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_japan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_jersey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_jordan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_kazakhstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_kenya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_kiribati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_kuwait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_kyrgyzstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_laos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_latvia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_lebanon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_lesotho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_liberia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_libya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_liechtenstein.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_lithuania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_luxembourg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_macau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_macedonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_madagascar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_malawi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_malaysia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_maledives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_malta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_marshall_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_martinique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mauretania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mauritius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mexico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_micronesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_moldova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_monaco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mongolia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_montserrat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_morocco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_mozambique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_namibia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_nauru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_nepal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_netherlands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_netherlands_antilles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_new_zealand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_nicaragua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_niger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_nigeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_niue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_norfolk_island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_north_korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_northern_mariana_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_norway.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_oman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_pakistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_palau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_panama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_papua_new_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_paraquay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_peru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_philippines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_pitcairn_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_poland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_portugal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_puerto_rico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_qatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_romania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_russia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_rwanda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saint_helena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saint_kitts_and_nevis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saint_lucia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saint_pierre_and_miquelon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saint_vincent_and_the_grenadines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_san_marino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_sao_tome_and_principe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_saudi_arabia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_senegal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_serbia_montenegro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_seychelles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_sierra_leone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_singapore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_slovakia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_slovenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_solomon_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_somalia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_south_africa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_south_georgia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_south_korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_spain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_sri_lanka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_sudan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_suriname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_swaziland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_sweden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_switzerland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_syria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_taiwan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tajikistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tanzania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_thailand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tibet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_togo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tonga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_trinidad_and_tobago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tunisia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_turkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_turkmenistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_turks_and_caicos_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_tuvalu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_uganda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_ukraine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_united_arab_emirates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_uruquay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_usa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_uzbekistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_vanuatu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_vatican_city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_venezuela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_vietnam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_virgin_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_wallis_and_futuna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_yemen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_zambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/flag_zimbabwe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plain/web-mastery.info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_afghanistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_albania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_algeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_american_samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_andorra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_angola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_anguilla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_antigua_and_barbuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_argentina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_armenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_aruba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_australia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_austria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_azerbaijan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bahamas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bahrain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bangladesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_barbados.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_belarus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_belgium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_belize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_benin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bermuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bhutan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bolivia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bosnia_and_herzegovina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_botswana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_brazil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_british_indian_ocean_territory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_british_virgin_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_brunei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_bulgaria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_burkina_faso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_burma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_burundi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cambodia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cameroon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_canada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cape_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cayman_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_central_african_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_chad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_chile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_china.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_colombia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_comoros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_congo_democratic_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_congo_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cook_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_costa_rica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cote_divoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_croatia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cuba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_czech_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_denmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_djibouti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_dominica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_dominican_republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_east_timor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_egypt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_el_salvador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_equador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_equatorial_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_eritrea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_estonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_ethiopia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_falkland_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_faroe_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_fiji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_finland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_france.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_french_polynesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_gabon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_gambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_georgia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_germany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_ghana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_gibraltar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_great_britain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_greece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_greenland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_grenada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guatemala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guernsey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guinea_bissau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_guyana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_haiti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_honduras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_hong_kong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_hungary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_iceland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_india.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_indonesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_iran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_iraq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_ireland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_isle_of_man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_israel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_italy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_jamaica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_japan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_jersey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_jordan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_kazakhstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_kenya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_kiribati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_kuwait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_kyrgyzstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_laos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_latvia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_lebanon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_lesotho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_liberia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_libya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_liechtenstein.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_lithuania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_luxembourg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_macau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_macedonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_madagascar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_malawi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_malaysia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_maledives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_malta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_marshall_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_martinique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mauretania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mauritius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mexico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_micronesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_moldova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_monaco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mongolia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_montserrat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_morocco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_mozambique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_namibia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_nauru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_nepal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_netherlands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_netherlands_antilles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_new_zealand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_nicaragua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_niger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_nigeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_niue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_norfolk_island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_north_korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_northern_mariana_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_norway.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_oman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_pakistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_palau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_panama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_papua_new_guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_paraquay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_peru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_philippines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_pitcairn_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_poland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_portugal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_puerto_rico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_qatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_romania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_russia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_rwanda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saint_helena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saint_kitts_and_nevis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saint_lucia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saint_pierre_and_miquelon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saint_vincent_and_the_grenadines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_san_marino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_sao_tome_and_principe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_saudi_arabia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_senegal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_serbia_montenegro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_seychelles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_sierra_leone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_singapore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_slovakia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_slovenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_solomon_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_somalia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_south_africa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_south_georgia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_south_korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_spain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_sri_lanka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_sudan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_suriname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_swaziland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_sweden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_switzerland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_syria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_taiwan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tajikistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tanzania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_thailand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tibet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_togo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tonga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_trinidad_and_tobago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tunisia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_turkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_turkmenistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_turks_and_caicos_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_tuvalu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_uganda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_ukraine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_united_arab_emirates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_uruquay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_usa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_uzbekistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_vanuatu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_vatican_city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_venezuela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_vietnam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_virgin_islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_wallis_and_futuna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_yemen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_zambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/flag_zimbabwe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shadow/web-mastery.info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tihonova/countries/app/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tihonova/countries/app/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tihonova/countries/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sem_4/domain.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tests/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tests/tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/beast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/beast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/Beast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/Beast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/ComparatorByMass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/domain/ComparatorByMass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/exception/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/exception/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/FifthPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/FifthPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/FirstPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/FirstPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/ForthPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/ForthPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/SecondPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/SecondPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/ThirdPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/panel/ThirdPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/reader/MyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/reader/MyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/reader/SAXReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/reader/SAXReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_final_test/src/com/tihonova/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/domain/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/domain/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/domain/VacuumCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/domain/VacuumCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/exception/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/exception/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/reader/MyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/reader/MyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/reader/SAXReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/reader/SAXReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/src/tihonova/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/washing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tihonova_Varvara_wc/washing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/out/production/lab13/by/tihonova/javatr/application/Application$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab13/out/production/lab13/by/tihonova/javatr/application/Application$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/src/by/tihonova/javatr/domain/toy/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab13/src/by/tihonova/javatr/domain/toy/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab13/toys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab13/toys.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/out/production/lab4/com/project/lab4/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/out/production/lab4/com/project/lab4/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab4/src/com/project/lab4/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/src/com/project/lab4/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cinema.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cinema.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/src/com/tihonova/domain/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/com/tihonova/domain/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/src/com/tihonova/domain/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/com/tihonova/domain/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/src/com/tihonova/main/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/com/tihonova/main/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/src/com/tihonova/myxml/SAXRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/com/tihonova/myxml/SAXRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/src/com/tihonova/myxml/XMLRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/com/tihonova/myxml/XMLRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/Student.uml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/Student.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/ProgrammingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/ProgrammingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/out/production/lab_1_uml/com/tihonova/domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/ProgrammingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/ProgrammingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sem_4/src/com/tihonova/domain/Student.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/runner/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/MyJFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/student/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/app/Countries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/CountriesTour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/runner/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/dialog/Dialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#2934#2935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/StudentsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Runner.java" />
+        <option value="$PROJECT_DIR$/lab2/src/Tour.java" />
+        <option value="$PROJECT_DIR$/lab2/src/Runner.java" />
+        <option value="$PROJECT_DIR$/lab2/src/Dialog.java" />
+        <option value="$PROJECT_DIR$/lab2/src/Application.java" />
+        <option value="$PROJECT_DIR$/src/Countries.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/Runner.java" />
+        <option value="$PROJECT_DIR$/lab2/src/CountriesTour.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/MyComparator.java" />
+        <option value="$PROJECT_DIR$/students.txt" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/Student.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/MyJFrame.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/StudentDialog.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/main/StudentsPanel.java" />
+        <option value="$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/StudentsPanel.java" />
+        <option value="$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/tihonova/countries/runner/Runner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="312" />
+    <option name="y" value="-21" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="countries" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551559876844" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\varvara\Documents\GitHub\bsu_by\sem4\lab2_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\varvara\Documents\GitHub\bsu_by\sem4\lab2_2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Runner (2)">
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Runner" />
+      <module name="lab2_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tihonova.countries.runner.Runner" />
+      <module name="lab2_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tihonova.countries.table.runner.Runner" />
+      <module name="lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tour" />
+      <module name="lab2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner (2)" />
+        <item itemvalue="Application.Runner (1)" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Tour" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88088ee4-3daa-40ac-9efa-31c80050ab47" name="Default Changelist" comment="" />
+      <created>1551192054672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551192054672</updated>
+      <workItem from="1551192058495" duration="10424000" />
+      <workItem from="1551466524213" duration="659000" />
+      <workItem from="1551527239694" duration="14591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25674000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26882592" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.502834" side_tool="true" weight="0.023090586" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info active="true" anchor="bottom" id="Find" order="6" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49716598" weight="0.023090586" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49716598" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26882592" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.502834" side_tool="true" visible="true" weight="0.023090586" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49716598" visible="true" weight="0.023090586" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49716598" weight="0.28241563" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/dialog/StudentDialog.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1035" selection-start-line="1035" selection-end-line="1035" />
+          <folding>
+            <element signature="e#39669#39670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/JRootPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="597" selection-start-line="597" selection-end-line="597" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/Tour.java" />
+    <entry file="file://$PROJECT_DIR$/src/CellRenderer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/sun/swing/plaf/synth/SynthFileChooserUIImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="680" column="35" selection-start-line="680" selection-start-column="35" selection-end-line="680" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countries.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="416" column="47" lean-forward="true" selection-start-line="416" selection-start-column="47" selection-end-line="416" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/main/MyComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/swing/tree/DefaultMutableTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="346" column="18" selection-start-line="346" selection-start-column="18" selection-end-line="346" selection-end-column="18" />
+          <folding>
+            <element signature="e#12016#12017#0" expanded="true" />
+            <element signature="e#12049#12050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/dialog/StudentDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#3124#3125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/MyJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/dialog/Dialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/app/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tihonova/countries/runner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/com/tihonova/countries/table/frame/CountriesTour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2_3/src/com/tihonova/students/tree/frame/StudentsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

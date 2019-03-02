@@ -1,14 +1,15 @@
 package com.tihonova.domain;
 
-import java.util.Objects;
-
-public class Animals implements Comparable<Animals>{
+public abstract class Animal implements Comparable<Animal>{
     private String name;
     private String place;
 
-    public Animals() {
+
+    public Animal() {
+        this.name="none";
+        this.place="none";
     }
-    public Animals(String name, String place) {
+    public Animal(String name, String place) {
         this.name = name;
         this.place = place;
     }
@@ -31,15 +32,19 @@ public class Animals implements Comparable<Animals>{
     }
 
     @Override
-    public int compareTo(Animals o) {
-        return 0;
-    }
+    public int compareTo(Animal o) {
+        int cmpPlace=this.getPlace().compareTo(o.getPlace());
+        int cmpName=this.getName().compareTo(o.getName());
+        if(cmpPlace!=0){
+            return  cmpPlace;
+        }
+            return cmpName;
 
+    }
+public abstract int massOfPray();
     @Override
     public String toString() {
-        return "Animals{" +
-                "name='" + name + '\'' +
-                ", place='" + place + '\'' +
-                '}';
+        return    "name='" + name + '\'' +
+                ", place='" + place + '\'';
     }
 }

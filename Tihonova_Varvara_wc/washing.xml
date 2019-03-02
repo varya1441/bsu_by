@@ -1,0 +1,30 @@
+<cleaner>
+    <washing>
+        <firm>Toshiba</firm>
+        <power>27</power>
+        <color>Red</color>
+        <image>cat.png</image>
+        <container>44</container>
+    </washing>
+    <washing>
+        <firm>Sony</firm>
+        <power>24</power>
+        <color>White</color>
+        <image>cat.png</image>
+        <container>12</container>
+    </washing>
+    <washing>
+        <firm>Kirill</firm>
+        <power>13</power>
+        <color>Blue</color>
+        <image>cat.png</image>
+        <container>3</container>
+    </washing>
+    <washing>
+        <firm>Varvara</firm>
+        <power>20</power>
+        <color>Yellow</color>
+        <image>cat.png</image>
+        <container>4</container>
+    </washing>
+</cleaner>

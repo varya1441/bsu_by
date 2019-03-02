@@ -18,15 +18,11 @@ public class ProgrammingTest {
         students.add(new Postgraduate("a","aaa","a@a.com",science));
         students.add(new Postgraduate("x","xx","x@x.com",math));
 
-        Scanner scanner=new Scanner(System.in);
-         System.out.println("Enter supervisor name: ");
-         String supervisorName=scanner.nextLine();
-         System.out.println("Message: ");
-         String message=scanner.nextLine();
-        Course course=new Course("Course",students);
 
-        Set<Postgraduate> st=course.getPostgraduate(supervisorName);
-        (new Notifier<Postgraduate>(st)).doNotifyAll(message);
+        Course course=new Course("Course",students);
+        Set<Postgraduate> st=course.getPostgraduate(math.getName());
+        
+        (new Notifier<Postgraduate>(st)).doNotifyAll("message");
 
     }
 }

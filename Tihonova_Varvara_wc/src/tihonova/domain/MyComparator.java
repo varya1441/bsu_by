@@ -1,9 +1,10 @@
-package com.tihonova.domain;
+package tihonova.domain;
 
 import java.util.Comparator;
 
-public class MyComparator implements Comparator<Drink> {
-    public int compare(Drink o1, Drink o2) {
-        return Double.compare(o1.getCaffeineAmount(),o2.getCaffeineAmount());
-    }
-}
+//public class MyComparator implements Comparator<VacuumCleaner> {
+////    public int compare(VacuumCleaner o1, VacuumCleaner o2) {
+////       int cmp=Integer.compare(o1.getPower(),o2.getPower());
+////       if(cmp)
+// //   }
+//}

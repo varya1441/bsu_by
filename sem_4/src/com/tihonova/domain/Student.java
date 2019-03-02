@@ -2,7 +2,7 @@ package com.tihonova.domain;
 
 import java.util.Objects;
 
-public class Student extends Person{
+public class Student extends Person implements Notifiable{
     private String login;
     private String email;
 
@@ -44,6 +44,6 @@ public class Student extends Person{
 
     @Override
     public void notify(String m) {
-        super.notify(m);
+        System.out.println("student "+ this.getName() +" says "+m);
     }
 }

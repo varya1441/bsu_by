@@ -1,6 +1,6 @@
 package com.tihonova.domain;
 
-public class Person implements Notifiable{
+public class Person {
     private String name;
 
 
@@ -16,8 +16,4 @@ public class Person implements Notifiable{
         this.name = name;
     }
 
-    @Override
-    public void notify(String m) {
-        System.out.println("name "+name+"notification "+m);
-    }
 }

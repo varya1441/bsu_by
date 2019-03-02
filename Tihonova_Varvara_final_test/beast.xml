@@ -1,26 +1,17 @@
 <animals>
-    <tea>
-        <name>Yolon</name>
-        <amount>23</amount>
-        <cost> 22.2</cost>
-        <type>green</type>
-    </tea>
-    <tea>
-        <name>Red</name>
-        <amount>24</amount>
-        <cost> 22.2</cost>
-        <type>red</type>
-    </tea>
-    <tea>
-        <name>tea2</name>
-        <amount>23</amount>
-        <cost> 21.2</cost>
-        <type>red</type>
-    </tea>
-    <tea>
-        <name>tea3</name>
-        <amount>23</amount>
-        <cost> 21.2</cost>
-        <type>green</type>
-    </tea>
+    <beast>
+        <name>Dog</name>
+        <place>Africa</place>
+        <pray>Fox</pray>
+    </beast>
+    <beast>
+        <name>Wolfe</name>
+        <place>Belarus</place>
+        <pray>Mouse</pray>
+    </beast>
+    <beast>
+        <name>Monkey</name>
+        <place>USA</place>
+        <pray>Birds</pray>
+    </beast>
 </animals>
