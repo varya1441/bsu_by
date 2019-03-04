@@ -1,4 +1,14 @@
 .idea
-sem4\lab2_2\.idea
-sem4\lab2_2\out
-out
+sem4/lab2_2/.idea
+sem4/lab2_2/out/
+out/
+lab13/
+lab4/
+*.class
+*.classpath
+*.xml
+*.zip
+*.jar
+sem4/lab3/lab3_3/jfreechart-1.0.19/
+sem4/lab3/lab3_3/jfreechart-1.0.1/
+sem4/lab3/lab3_3/json-simple-master/
