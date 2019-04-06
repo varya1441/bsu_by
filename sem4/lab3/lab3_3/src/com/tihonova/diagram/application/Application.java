@@ -70,7 +70,7 @@ public class Application extends ApplicationFrame {
 
     private static JFreeChart createChart(PieDataset dataset) {
         JFreeChart chart = ChartFactory.createPieChart(
-                "Mobile Sales",   // chart title
+                "Books",   // chart title
                 dataset,          // data
                 true,             // include legend
                 true,

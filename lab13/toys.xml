@@ -11,6 +11,11 @@
 		<group>NEWBORN</group>
 	</toy>
 	<toy>
+		<name>name</name>
+		<cost>23.0</cost>
+		<group>NEWBORN</group>
+	</toy>
+	<toy>
 		<name>Robot</name>
 		<cost>2.2</cost>
 		<group>PRESCHOOL</group>

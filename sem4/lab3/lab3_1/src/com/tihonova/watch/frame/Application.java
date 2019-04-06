@@ -8,7 +8,7 @@ public class Application extends JFrame {
     public Application() {
         super("Timer");
 
-JPanel panel = new JPanel();
+        JPanel panel = new JPanel();
         this.add(panel);
         panel.add(new Painter());
 
@@ -16,7 +16,7 @@ JPanel panel = new JPanel();
         this.setSize(500, 500);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        // this.setSize(900, 600);
+
         this.setLocationRelativeTo(null);
         this.setVisible(true);
     }

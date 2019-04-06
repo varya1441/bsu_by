@@ -2,10 +2,6 @@ package by.tihonova.javatr.domain.toy;
 
 import by.tihonova.javatr.domain.childrengroup.ChildrenGroup;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.Set;
 
 public class Toy implements Comparable<Toy> {
 

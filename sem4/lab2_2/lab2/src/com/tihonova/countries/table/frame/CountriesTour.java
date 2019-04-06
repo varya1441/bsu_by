@@ -34,13 +34,12 @@ public class CountriesTour extends JPanel {
 
             @Override
             public Object getValueAt(int row, int column) {
-              //  System.out.println("Get " + super.getValueAt(row, column));
                 return super.getValueAt(row, column);
             }
 
             @Override
             public void setValueAt(Object aValue, int row, int column) {
-               // System.out.println(row + " " + column + " " );
+
                 if(column == 2) {//summ
                     int oldVal = Integer.valueOf((Integer) super.getValueAt(row, column));
                     int newVal = (Integer)aValue;
@@ -74,7 +73,8 @@ public class CountriesTour extends JPanel {
                    case 0: return ImageIcon.class;
                    case 1:return String.class;
                    case 2:return Integer.class;
-                   default:return Boolean.class;
+                   case 3:return Boolean.class;
+                   default:return Integer.class;
                }
             }
         };
@@ -87,7 +87,6 @@ public class CountriesTour extends JPanel {
         }
         setPreferredSize(new Dimension(600, 550));
         setMinimumSize(new Dimension(600, 400));
-        //setVisible(true);
     }
 
     public void addNewTour() {

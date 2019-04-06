@@ -1,20 +1,25 @@
 <cinemas>
     <cinema name="Cosmos" seats="23">
+        <films>
         <film>Harry Potter 1</film>
         <film>Harry Potter part 2</film>
         <film>Paris</film>
         <film>About Belarus</film>
+        </films>
     </cinema>
     <cinema name="Red Star" seats="24">
+    <films>
         <film>Harry Potter 1</film>
-        <film>Harry Potter part 2</film>
-        <film>Paris</film>
-        <film>About Belarus</film>
+        <film>Lord</film>
+
+    </films>
     </cinema>
     <cinema name="Radzima" seats="13">
+    <films>
         <film>Harry Potter 1</film>
-        <film>Harry Potter part 2</film>
-        <film>Paris</film>
-        <film>About Belarus</film>
+        <film>Film</film>
+        <film>13 reasons why</film>
+        <film>Misk</film>
+    </films>
     </cinema>
 </cinemas>

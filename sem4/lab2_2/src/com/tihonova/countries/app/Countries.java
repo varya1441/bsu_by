@@ -19,11 +19,11 @@ public class Countries extends JPanel {
 
         this.countries = countries;
         countriesList = new JList<>();
-        jLabel=new JLabel();
-panel=new JPanel();
-panel.setSize(500,100);
-        this.add(new JScrollPane(countriesList),BorderLayout.CENTER);
-        this.add(panel,BorderLayout.NORTH);
+        jLabel = new JLabel();
+        panel = new JPanel();
+        panel.setSize(500, 100);
+        this.add(new JScrollPane(countriesList), BorderLayout.CENTER);
+        this.add(panel, BorderLayout.NORTH);
         panel.add(jLabel);
         DefaultListModel model = new DefaultListModel();
         countriesList.setModel(model);
@@ -31,10 +31,10 @@ panel.setSize(500,100);
             model.addElement(m.getKey());
         }
         countriesList.setCellRenderer(new CellRenderer());
-        countriesList.addListSelectionListener(Listener->{
-            String country=countriesList.getSelectedValue();
+        countriesList.addListSelectionListener(Listener -> {
+            String country = countriesList.getSelectedValue();
             jLabel.setIcon(countries.get(country).getValue());
-            jLabel.setText(country+" "+countries.get(country).getKey());
+            jLabel.setText(country + " " + countries.get(country).getKey());
         });
         setPreferredSize(new Dimension(600, 550));
         setMinimumSize(new Dimension(600, 400));

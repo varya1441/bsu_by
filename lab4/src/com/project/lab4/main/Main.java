@@ -8,20 +8,22 @@ public class Main {
 
     public static void main(String[] args) {
        Tree<Integer> t=new Tree<>();
+//        t.add(0);
+//        t.add(100);
+//        t.add(-100);
 
-        t.add(4);
-        t.add(18);
-        t.add(27);
-        t.add(19);
-        t.add(1);
+        t.add(-21);
         t.add(2);
-        t.add(7);
-        t.add(5);
+        t.add(3);
+        t.add(4);
         t.add(0);
-        t.add(17);
-        t.add(6);
+        t.add(-1);
+        t.add(2);
+        t.add(1);
 
-        t.goLeftRootRight();
+
+        t.goRootLeftRight();
+    //    t.goLeftRightRoot();
 
        System.out.println("Element to delete: ");
 
