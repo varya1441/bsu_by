@@ -27,6 +27,7 @@ public class JTableView extends JFrame {
                 if (column == 0)
                     setText(""+(row+1)+"");
                 else
+
                     setText((value == null) ? "" : model.calculateCell((String)value, row, column, new HashSet<Integer>()));
                 return this;
             }

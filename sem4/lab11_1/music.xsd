@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="music"/>
+  <xs:complexType name="albomType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="muse"/>
+            <xs:enumeration value="Coldplay"/>
+            <xs:enumeration value="Pop"/>
+            <xs:enumeration value="Gorillas"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="author">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Bjarne Stroustrup"/>
+            <xs:enumeration value="Nsme"/>
+            <xs:enumeration value="Thm"/>
+            <xs:enumeration value="Nih"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="words">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="63"/>
+            <xs:enumeration value="30"/>
+            <xs:enumeration value="54"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="year" use="optional"/>
+    <xs:attribute type="xs:string" name="extension" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="musicType">
+    <xs:sequence>
+      <xs:element type="albomType" name="albom" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

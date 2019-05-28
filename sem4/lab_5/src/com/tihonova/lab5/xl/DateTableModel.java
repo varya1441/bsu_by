@@ -9,8 +9,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DateTableModel extends DefaultTableModel {
-    private static int rec = 0;
-    private static int recWarn=-50;
+    private static String recCol="none";
+
+
 
     private String datePatternString = "(((0[1-9]|[12][0-9]|3[01])\\-(0[13578]|10|12))|((0[1-9]|[12][0-9]|30)\\-(0[469]|11))|((0[1-9]|[12][0-9])\\-02))\\-[1-9]\\d{3}";
     private String cellPatternString;
@@ -48,15 +49,15 @@ public class DateTableModel extends DefaultTableModel {
     }
 
     private int pairHash(int x, int y) {
-        return 10007*x + y;
+        return x%10007 + y;
     }
 
     public String calculateCell(String value, int row, int col, Set<Integer> history) {
         if (value == null) return "EMPTY!";
         if (value.equals("")) return "";
-        if (history.contains(pairHash(row, col))||rec<recWarn)
+        if (history.contains(pairHash(row, col))||("="+recCol).equals(value))
             return "RECURSIVE!";
-        rec+=row+col;
+
         history.add(pairHash(row, col));
 
         Matcher dateMatcher = datePattern.matcher(value);
@@ -95,15 +96,19 @@ public class DateTableModel extends DefaultTableModel {
                 String[] args = minOperationMatcher.group(1).split(",");
                 Date minDate = new Date(Long.MAX_VALUE);
                 for (String arg : args) {
-                    Date t = dateFormat.parse(calculateCell("=" + arg, -10, -10, new HashSet<>()));
-                    if (t.before(minDate))
-                        minDate = t;
+                        recCol= String.valueOf((((char)('A'+(char)col-1))));
+                        recCol+=(row+1);
+                        Date t = dateFormat.parse(calculateCell("=" + arg, -10, -10, new HashSet<>()));
+                        if (t.before(minDate))
+                            minDate = t;
                 }
                 return dateFormat.format(minDate);
             } else if (maxOperationMatcher.matches()) {
                 String[] args = maxOperationMatcher.group(1).split(",");
                 Date maxDate = new Date(Long.MIN_VALUE);
                 for (String arg : args) {
+                    recCol= String.valueOf((((char)('A'+(char)col-1))));
+                    recCol+=(row+1);
                     Date t = dateFormat.parse(calculateCell("=" + arg, -10, -10, new HashSet<>()));
                     if (t.after(maxDate))
                         maxDate = t;

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music>
+    <albom year="1983" extension ="indie">
+        <name>muse</name>
+        <author>Bjarne Stroustrup</author>
+        <words>63</words>
+    </albom>
+    <albom year="1983" extension ="rock">
+        <name>Coldplay</name>
+        <author>Nsme</author>
+        <words>63</words>
+    </albom>
+    <albom year="1991" extension ="pop">
+        <name>Pop</name>
+        <author>Thm</author>
+        <words>30</words>
+    </albom>
+    <albom year="1970" extension ="elect">
+        <name>Gorillas</name>
+        <author>Nih</author>
+        <words>54</words>
+    </albom>
+
+</music>

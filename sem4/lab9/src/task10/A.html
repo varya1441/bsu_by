@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Info about your</title>
+    <style type="text/css">
+        span {
+            display: block;
+        }
+
+        name {
+            font-size: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        bigletters {
+            font-size: 150%;
+            color: #c3b78c;
+            text-align: center;
+        }
+
+        draw {
+            color: blue;
+        }
+
+        select {
+            width: 80px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<center style="background-color: antiquewhite;">
+    <a href="A.html"><img id="circle1" src="red.png" width="5%"></a>
+    <a href="B.html"><img id="circle2" src="red.png" width="5%"></a>
+    <a href="C.html"><img id="circle3" src="red.png" width="5%"></a>
+</center>
+<script >
+    function mouseInCircle() {
+        event.target.src = "green.png";
+    }
+
+    function mouseOutOfCircle() {
+        event.target.src = "red.png";
+    }
+
+    document.getElementById("circle1").onmouseenter = mouseInCircle;
+    document.getElementById("circle1").onmouseleave = mouseOutOfCircle;
+    document.getElementById("circle2").onmouseenter = mouseInCircle;
+    document.getElementById("circle2").onmouseleave = mouseOutOfCircle;
+    document.getElementById("circle3").on
+    mouseenter = mouseInCircle;
+    document.getElementById("circle3").onmouseleave = mouseOutOfCircle;
+
+    function call() {
+        alert("Thank you!");
+    }
+</script>
+
+</body>
+<body>
+<center>
+    <form width="50%" style="background-color: antiquewhite;">
+
+        <p>
+            <bigletters>Name</bigletters>
+            <input value=""></p>
+        <p>
+            <bigletters>Birthday</bigletters>
+            <input value=""></p>
+        <p>
+            <bigletters>ADDRESS</bigletters>
+            <input value=""></p>
+        <p>
+            <bigletters>PHONE NUMBER</bigletters>
+            <input value=""></p>
+        <p>
+            <bigletters>EMAIL</bigletters>
+            <input value=""></p>
+        <p><input type="file" value=""></p>
+        <p>
+            <bigletters>AIMS</bigletters>
+            <br><textarea rows="20" cols="45" maxlength="150"></textarea></p>
+        <p>
+            <bigletters>ADUCATION</bigletters>
+            <br>
+            <select>
+                <option>BSU</option>
+                <option>BSUIR</option>
+            </select>
+            <br>START YEAR<br>
+            <select>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+            </select>
+            <br>END YEAR<br>
+            <select>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+            </select></p>
+        <p>
+            <bigletters>WORK EXPERIENCE</bigletters>
+            <br>
+            <input type="radio" name="answer" value="a1">YES<br>
+            <input type="radio" name="answer" value="a1">NO<br>
+            <br> END YEAR<br>
+            <select>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+            </select>
+        </p>
+        <p>
+            <bigletters>SKILLS</bigletters>
+            <br>
+            <textarea rows="20" cols="45" maxlength="150"></textarea></p>
+        <p>
+            <button onclick="call()"><img src="ok.png" alt="ok" width="20" height="20"> OK</button>&nbsp;<button><img
+                src="cancel.png" alt="cancel" width="20" height="20"> CANCEL
+        </button>
+        </p>
+
+    </form>
+</center>
+
+</body>
+</html>

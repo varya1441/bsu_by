@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAF</title>
+</head>
+<body>
+<center>
+    <a href="A.html"><img id="circle1" src="red.png" width="5%"></a>
+    <a href="B.html"><img id="circle2" src="red.png" width="5%"></a>
+    <a href="C.html"><img id="circle3" src="red.png" width="5%"></a>
+</center>
+<script>
+    function mouseInCircle(){
+        event.target.src="green.png";
+    }
+    function mouseOutOfCircle(){
+        event.target.src="red.png";
+    }
+    document.getElementById("circle1").onmouseenter=mouseInCircle;
+    document.getElementById("circle1").onmouseleave=mouseOutOfCircle;
+    document.getElementById("circle2").onmouseenter=mouseInCircle;
+    document.getElementById("circle2").onmouseleave=mouseOutOfCircle;
+    document.getElementById("circle3").onmouseenter=mouseInCircle;
+    document.getElementById("circle3").onmouseleave=mouseOutOfCircle;
+</script>
+<center>
+    <img src="kaf.png" alt="" usemap="#map" />
+    <map name="map">
+        <area title="MSS" href="http://fpmi.bsu.by/main.aspx?guid=21061"  shape="poly" coords="512, 208, 546, 293, 655, 293, 692, 209, 601, 161" />
+        <area  title="DMA"href="http://fpmi.bsu.by/main.aspx?guid=20991" shape="poly" coords="854, 155, 749, 226, 791, 354, 847, 354, 946, 290, 961, 229" />
+        <area title="BMI"href="http://fpmi.bsu.by/main.aspx?guid=41761" shape="poly" coords="892, 470, 1020, 469, 1062, 355, 956, 285, 850, 357" />
+        <area title="KTS" href="http://fpmi.bsu.by/main.aspx?guid=21011"  shape="poly" coords="611, 424, 686, 342, 770, 431, 736, 579, 634, 577" />
+        <area title="ISY" href="http://fpmi.bsu.by/main.aspx?guid=21001" shape="poly" coords="333, 283, 419, 217, 554, 329, 501, 511, 332, 511, 282, 326" />
+    </map>
+        <area alt="" title="Gomel" href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C" shape="poly" coords="396,545,419,594,427,673,456,669,491,673,525,668,567,679,605,682,642,682,680,706,675,662,687,623,701,597,714,588,750,591,776,579,767,526,751,503,736,473,727,446,712,431,674,423,634,425,607,423,552,468,511,499,593,452" />
+
+</center>
+</body>
+</html>

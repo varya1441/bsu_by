@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Info about your</title>
+    <style type="text/css">
+        span {
+            display: block;
+        }
+
+        .table_class tr:nth-child(odd) {
+            background-color: cornsilk;
+        }
+
+        /*четная строка таблицы класса stripy *!*/
+        .table_class tr:nth-child(even) {
+            background-color: cornflowerblue;
+        }
+
+
+    </style>
+</head>
+<body>
+<center>
+    <a href="A.html"><img id="circle1" src="red.png" width="5%"></a>
+    <a href="B.html"><img id="circle2" src="red.png" width="5%"></a>
+    <a href="C.html"><img id="circle3" src="red.png" width="5%"></a>
+    <table class="table_class" style="width:100%">
+        <tr >
+            <th> Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr >
+            <td>PI</td>
+            <td>UP</td>
+            <td>DY</td>
+            <td>PI</td>
+            <td>OS</td>
+            <td></td>
+
+        </tr>
+        <tr >
+            <td>TA</td>
+            <td>UP</td>
+            <td>TPAMS</td>
+            <td>TA</td>
+            <td>FAN</td>
+            <td>TPAMS</td>
+        </tr>
+        <tr>
+            <td>DY</td>
+            <td></td>
+            <td>TPAMS</td>
+            <td>TA</td>
+            <td>FAN</td>
+            <td>MNA</td>
+
+        </tr>
+        <tr >
+
+            <td>MNA</td>
+            <td></td>
+            <td>OS</td>
+            <td></td>
+            <td>TA</td>
+            <td></td>
+        </tr>
+
+    </table>
+</center>
+<script>
+    function mouseInCircle(){
+        event.target.src="green.png";
+    }
+    function mouseOutOfCircle(){
+        event.target.src="red.png";
+    }
+    document.getElementById("circle1").onmouseenter=mouseInCircle;
+    document.getElementById("circle1").onmouseleave=mouseOutOfCircle;
+    document.getElementById("circle2").onmouseenter=mouseInCircle;
+    document.getElementById("circle2").onmouseleave=mouseOutOfCircle;
+    document.getElementById("circle3").onmouseenter=mouseInCircle;
+    document.getElementById("circle3").onmouseleave=mouseOutOfCircle;
+</script>
+</body>
+</html>
