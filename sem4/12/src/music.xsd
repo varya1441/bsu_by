@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="music"/>
-  <xsd:complexType name="albomType">
-    <xsd:sequence>
-      <xsd:element name="name">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:string">
-            <xsd:enumeration value="muse"/>
-            <xsd:enumeration value="Coldplay"/>
-            <xsd:enumeration value="Pop"/>
-            <xsd:enumeration value="Gorillas"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
-      <xsd:element name="author">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:string" >
-            <xsd:minLength value="3"/>
-            <xsd:enumeration value="Nsme"/>
-            <xsd:enumeration value="Thm"/>
-            <xsd:enumeration value="Nih"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
-      <xsd:element name="words">
-        <xsd:simpleType>
-          <xsd:restriction base="xsd:integer">
-            <xsd:maxInclusive value="20"/>
-            <xsd:enumeration value="30"/>
-            <xsd:enumeration value="54"/>
-          </xsd:restriction>
-        </xsd:simpleType>
-      </xsd:element>
-    </xsd:sequence>
-    <xsd:attribute type="xsd:string" name="year" use="optional"/>
-    <xsd:attribute type="xsd:string" name="extension" use="optional"/>
-  </xsd:complexType>
-  <xsd:complexType name="musicType">
-    <xsd:sequence>
-      <xsd:element type="albomType" name="albom" maxOccurs="unbounded" minOccurs="0"/>
-    </xsd:sequence>
-  </xsd:complexType>
-</xsd:schema>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="music">
+        <complexType>
+            <sequence>
+                <element name="albom" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="name">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <minLength value="3"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            <element name="author">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <minLength value="3"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            <element name="words">
+                                <simpleType>
+                                    <restriction base="double">
+                                        <maxInclusive value="63"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                        </sequence>
+                        <attribute type="string" name="year" use="optional"/>
+                        <attribute type="string" name="extension" use="optional"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
