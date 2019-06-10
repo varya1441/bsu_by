@@ -1,9 +1,0 @@
-Ball 12,4 newborn
-Robot 12,4 preschool
-Doll 4 schoolkid
-Car 10 newborn
-Ball 12,4 newborn
-Robot 2,2 preschool
-Doll 24 schoolkid
-Car 6 preschool
-Ball 22,4 schoolkid
